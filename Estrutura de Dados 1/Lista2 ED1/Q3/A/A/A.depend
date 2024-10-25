@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1684965987 source:c:\almeida\estudos\c\ed1\lista2\q3\a\a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_queue.h"
+
+1684966288 source:c:\almeida\estudos\c\ed1\lista2\q3\a\a\static_queue.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_queue.h"
+
+1684965976 c:\almeida\estudos\c\ed1\lista2\q3\a\a\static_queue.h
+
+1684952004 source:c:\users\gabriel\desktop\lista2\q3\a\a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_queue.h"
+
+1684951576 c:\users\gabriel\desktop\lista2\q3\a\a\static_queue.h
+
+1684951970 source:c:\users\gabriel\desktop\lista2\q3\a\a\static_queue.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_queue.h"
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1686160741 source:c:\almeida\estudos\c\ed1\lista2\q5\listaencadeada\listaencadeada.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+
+1686058262 c:\almeida\estudos\c\ed1\lista2\q5\listaencadeada\listaencadeada.h
+	<stdbool.h>
+
+1686160740 source:c:\almeida\estudos\c\ed1\lista2\q5\listaencadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+
+1686146340 source:c:\users\gabriel\desktop\lista2\q5\listaencadeada\listaencadeada.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+
+1686043862 c:\users\gabriel\desktop\lista2\q5\listaencadeada\listaencadeada.h
+	<stdbool.h>
+
+1686146340 source:c:\users\gabriel\desktop\lista2\q5\listaencadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEncadeada.h"
+

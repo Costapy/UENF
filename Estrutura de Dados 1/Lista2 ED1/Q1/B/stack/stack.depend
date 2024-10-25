@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1684611299 source:c:\almeida\estudos\c\ed1\lista2\q1\b\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1684610998 c:\almeida\estudos\c\ed1\lista2\q1\b\stack\stack.h
+
+1684611260 source:c:\almeida\estudos\c\ed1\lista2\q1\b\stack\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1684596898 source:c:\users\gabriel\desktop\lista2\q1\b\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1684596598 c:\users\gabriel\desktop\lista2\q1\b\stack\stack.h
+
+1684596860 source:c:\users\gabriel\desktop\lista2\q1\b\stack\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1684596898 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\b\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+
+1684596598 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\b\stack\stack.h
+
+1684596860 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\b\stack\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stack.h"
+

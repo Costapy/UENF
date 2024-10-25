@@ -1,0 +1,113 @@
+\documentclass[a4paper,openany,oneside]{abntex2}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{multicol,multirow}
+\usepackage[bottom=2.5cm,top=2.5cm,left=2.0cm,right=2.0cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\hypersetup{colorlinks,citecolor=black,filecolor=blacke,linkcolor=blue,urlcolor=blue} %%%%
+% cleardoublepage se este documento nao for article
+% ---
+
+\renewcommand\thesection{\arabic{section}} % não inclui capítulo na mumeração da seção
+\setcounter{page}{0} % não conta a numeração da capa
+\pagestyle{myheadings} %numerar página sem títulos extras
+\usepackage[abnt-emphasize=bf,alf,bibjustif,versalete]{abntex2cite}
+\usepackage{lipsum} % pacote para escrever texto aleatório.
+%Não apague os comandos acima. Abaixo você pode colocar os pacotes que necessitar usar.
+
+
+
+
+
+
+\begin{document}
+\title{Template dos relatórios de Física da UENF}
+
+%%%%% Verifique se o professor aceita arquivo em pdf e se a formatação é a exigida. No LCFIS estamos buscando uniformizar o modelo para facilitar o aprendizado dos alunos. 
+
+
+\begin{center}
+%\hspace{-0.5cm}
+\raisebox{-2\baselineskip}{\includegraphics[width=0.15\textwidth]
+{Figuras/logouenf.png}}
+\hfill
+\begin{minipage}[b]{0.80\textwidth}
+  \textbf{\Large Universidade Estadual do Norte Fluminense Darcy Ribeiro}\\
+  \centering
+    \textbf{\Large Centro de Ciência e Tecnologia}\\
+  \textbf{\large Laboratório de Física Geral I}
+\end{minipage}
+\vspace{180pt}
+
+        \huge{\textbf{Relatório N$^\circ$ 1}}\\ %Entre aqui com o número do relatório
+        \Large{Movimento Retilíneo Uniformemente Variado}\\ %Entre com o título do experimento
+        
+        \vspace{100pt}
+        
+        \hfill Turma E 
+        
+        \vspace{10pt}
+        
+        \hfill Ciência da Computação
+        
+        \vspace{30pt} %Substitua os nomes e matrículas fictícios pelos nomes dos participantes do grupo com os seus respectivos números de matrícula.
+
+    
+        \hfill Felipe Garcia \hspace{20pt} Matrícula: 20221100007  \\
+        \hfill Pablo Chaves  \hspace{20pt} Matrícula: 20221100016  \\
+        \hfill Matheus Gama   \hspace{20pt} Matrícula: 20221100021\\
+
+        \vspace{30pt}
+        \hfill {Professor: Marcelo Massunaga}\\ %Entre com o nome do professor
+        
+     
+        \vspace{\fill}
+        \LARGE \textbf{\today}
+          
+	\end{center}
+
+
+
+%% o índice remissivo pode ser retirado se excluir o texto desde esse comentário até a próxima sequência de %, não se esqueça também de excluir os hyperref lá no alto, estarão marcados com símbolos.
+\newpage
+
+%\Large\tableofcontents
+%\thispagestyle{empty}
+             %%%%%
+%\newpage
+
+
+\mainmatter
+
+\section{Introdução}
+\input{2_Introducao.tex}
+
+\subsection{Fundamentação teórica}
+\input{2_1_FundTeoria.tex}
+
+\section{Procedimento Experimental}
+\input{3_Objetivos.tex}
+
+\section{Resultados}
+\input{5_ResultadoseAnalise}
+
+\subsection{Análise dos Resultados e Discussão}
+\input{4_1_MateriaisUtilizados.tex}
+
+\section{Conclusão}
+\input{6_Conclusao.tex}
+
+\bibliography{8_referencias}
+\begin{itemize}
+    \item HALLIDAY, D. e RESNICK, R., Fundamentos da Física, 8 ed., vol. 1
+    \item HALLIDAY, D. e RESNICK, R., Fundamentos da Física, 8 ed., vol. 2
+\end{itemize}
+
+\end{document}
+
+
+
+

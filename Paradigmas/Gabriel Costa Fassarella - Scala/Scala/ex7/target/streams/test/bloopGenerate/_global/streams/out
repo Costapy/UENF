@@ -1,0 +1,4 @@
+[debug] [ex7-test] Classpath dependencies List()
+[debug] [ex7-test] Dependencies from configurations List(ex7)
+[debug] Bloop wrote the configuration of project 'ex7-test' to 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\ex7\.bloop\ex7-test.json'
+[success] Generated .bloop\ex7-test.json

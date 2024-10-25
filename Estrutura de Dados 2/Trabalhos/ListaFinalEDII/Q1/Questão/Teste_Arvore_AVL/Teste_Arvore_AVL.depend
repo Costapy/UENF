@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1697654242 source:e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1698841428 e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\arvoreavl.h
+
+1698841447 source:e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\teste_arvore_avl_backes\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\teste_arvore_avl_backes\teste_arvore_avl\arvoreavl.h
+
+1699108372 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\teste_arvore_avl_backes\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\questão\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\questão\teste_arvore_avl\arvoreavl.h
+
+1699277578 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\l2\q1\questão\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 source:c:\users\gvalm\desktop\listafinaledii\q1\questão\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699108645 c:\users\gvalm\desktop\listafinaledii\q1\questão\teste_arvore_avl\arvoreavl.h
+
+1699277578 source:c:\users\gvalm\desktop\listafinaledii\q1\questão\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q1\questão\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1701436866 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q1\questão\teste_arvore_avl\arvoreavl.h
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q1\questão\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+

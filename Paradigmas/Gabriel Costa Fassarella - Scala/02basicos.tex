@@ -1,0 +1,552 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2023
+% Disciplina: Paradigmas de Linguagens de Programa\c{c}\~{a}o
+% Aluno: Gabriel Costa Fassarella
+
+
+\chapterimage{ScalaH} % Chapter heading image ==>  Trocar este arquivo por outro 1200x468
+\chapter{ Conceitos b\'{a}sicos da Linguagem Scala}
+
+Os livros b\'{a}sicos usados para o estudo da Scala s\~{a}o \cite{Odersky}, \cite{Sfregola2021} e \cite{Wampler2021}.
+Neste cap\'{i}tulo serão apresentados alguns conceitos b\'{a}sicos necess\'{a}rios para a programa\c{c}\~{a}o em Scala, como o uso de vari\'{a}veis, operadores e funções b\'{a}sicas.
+
+
+    %%%%%%%%=================================
+    \section{Vari\'{a}veis e constantes}
+    %%%%%%%%=================================
+	
+	Segundo \cite{Odersky} vari\'{a}vel \'{e} um dos principais conceitos da programa\c{c}\~{a}o, em ess\^{e}ncia uma vari\'{a}vel \'{e} um espaço de mem\'{o}ria respons\'{a}vel por armazenar um valor, podendo ser de diferentes tipos, como n\'{u}meros, texto, valores booleanos e tipos de dados mais complexos. Para declarar uma vari\'{a}vel no c\'{o}digo \'{e} necess\'{a}rio definir se \'{e} uma val (constante) ou uma var, seu nome, o tipo de dado que ela ira armazenar e por   \'{u}ltimo o seu valor.
+	Uma vari\'{a}vel \'{e} definida da seguinte forma:
+	
+    \begin{lstlisting}
+    	var Nome: Tipo = valor
+	
+	\end{lstlisting}
+
+	\'{e} muito importante ressaltar que a declara\c{c}\~{a}o do tipo da vari\'{a}vel em Scala \'{e} opcional, por\'{e}m \'{e} extremamente recomendada. Isso ocorre porque al\'{e}m de Scala ser uma linguagem de programa\c{c}\~{a}o extremamente tipada (toda a vari\'{a}vel deve ter seu tipo definido), ela possui infer\^{e}ncia de tipo, ou seja, o compilador pode determinar automaticamente o tipo da vari\'{a}vel se baseando no dado atribu\'{i}do a ela.
+	
+	\subsection{var e val}
+	\cite{Sfregola2021} reitera que em Scala, uma var \'{e} um tipo de vari\'{a}vel mutável, ou seja, ela pode ter o seu valor alterado a qualquer momento.
+	
+	Exemplo de uma aplica\c{c}\~{a}o de var:
+    
+    \begin{lstlisting}
+	   
+	scala> var msg: String = "Ola, bom dia!"
+	var msg: String = Ola, bom dia!
+	
+	scala> msg = "Ola, boa tarde!"
+	msg: String = "Ola, boa tarde"
+	
+	\end{lstlisting}
+
+	Uma val funciona de maneira contr\'{a}ria a uma var, já que a val representa uma constante, uma vez que ela possui valor imut\'{a}vel, ou seja o valor de uma val não pode ser alterado.
+	
+	Exemplo de val:
+	
+	\begin{lstlisting}
+	
+	scala> val msg: String = "Ola, bom dia!"
+	val msg: String = Ola, bom dia!
+		
+	\end{lstlisting}
+
+	Vale citar que caso o usu\'{a}rio tente alterar o valor de uma val (nesse caso msg), um erro ser\'{a} mostrado.
+	
+	Exemplo:
+	
+	\begin{lstlisting}
+		scala> msg = "Ola, boa tarde!"
+		-- [E052] Type Error: -------------------
+		1 |msg = "Ola, boa tarde!"
+		|^^^^^^^^^^^^^^^^^^^^^^
+		|Reassignment to val msg
+		|
+		| longer explanation available when 
+		compiling with `-explain`
+		1 error found
+	\end{lstlisting}
+	 
+
+    %%%%%%%%=================================
+    \section{Tipos de Dados B\'{a}sicos}
+    %%%%%%%%=================================
+    
+    Nessa seção do cap\'{i}tulo abordaremos os in\'{u}meros tipos principais de dados b\'{a}sicos existentes em Scala, ou seja o tipo do valor que ser\'{a} armazenado em um espaço de mem\'{o}ria (vari\'{a}vel).
+    
+    \subsection{Char}
+    Na linguagem Scala, o Char \'{e} um tipo primitivo de dado num\'{e}rico usado para a representa\c{c}\~{a}o de um \'{u}nico caractere qualquer em UNICODE. O Char \'{e} definido se utilizando de duas aspas simples ('') com apenas um caractere em seu interior.
+    Exemplo:
+    
+    \begin{lstlisting}
+    	scala> var car: Char = 'x'
+    	var car: Char = x
+    	
+    	scala> car = 'X'
+    	car: Char = X
+    \end{lstlisting}
+	
+	No exemplo acima \'{e} declarada uma vari\'{a}vel chamada car do tipo Char, e nela \'{e} atribu\'{i}do o valor 'x'. Ainda \'{e} v\'{a}lido observar que o valor de car \'{e} alterado para 'X', ou seja um Char mai\'{u}sculo \'{e} diferente de um Char min\'{u}sculo.
+	
+	\subsection{String}
+	
+	Em Scala, a String \'{e} um tipo de dado usado para representar um sequ\^{e}ncia de caracteres. Na linguagem, a string \'{e} um tipo de dado imut\'{a}vel, ou seja, ela não pode ser alterada. Isso faz com que opera\c{c}\~{o}es com esse tipo de dado envolvam a cria\c{c}\~{a}o de uma nova string.
+    
+    Exemplo:
+    
+    \begin{lstlisting}
+    	scala> var ola = "Ola, mundo!"
+    	var ola: String = Ola, mundo!
+    \end{lstlisting}
+
+	Al\'{e}m disso, caso o usu\'{a}rio deseje utilizar aspas no interior da String, no momento da declara\c{c}\~{a}o \'{e} necess\'{a}rio usar aspas triplas ("""""")
+	
+	\begin{lstlisting}[breaklines]
+		scala> var msg = """A mensagem dizia "Ola, mundo!""""
+		var msg: String = A mensagem dizia "Ola, mundo!"
+	\end{lstlisting}
+
+	\subsection{Int}
+	 
+	 Int em Scala \'{e} um tipo de dado primitivo que se refere aos n\'{u}meros inteiros positivos e negativos pertencentes a um intervalo suportado pela mem\'{o}ria que vai at\'{e} 32 bits. Com esse tipo de dado \'{e} poss\'{i}vel realizar in\'{u}meras opera\c{c}\~{o}es aritm\'{e}ticas.
+	 
+	 \begin{lstlisting}
+	 	scala> var x: Int = 5
+	 	var x: Int = 5
+	 	
+	 	scala> var y: Int = 3
+	 	var y: Int = 3
+	 	
+	 	scala> var res: Int = x + y
+	 	var res: Int = 8
+	 \end{lstlisting}
+ 
+ 	No c\'{o}digo acima, foi declarado duas vari\'{a}veis (x e y) do tipo Int, e \'{e} guardada a soma das duas vari\'{a}veis em outra vari\'{a}vel tamb\'{e}m do tipo Int de nome res. Vale lembrar que o funcionamento das opera\c{c}\~{o}es serão tratadas no tópico 2.3 deste cap\'{i}tulo.
+ 	
+ 	\subsection{Float}
+ 	
+ 	Na linguagem Scala, o Float \'{e} um tipo de dado primitivo que representa um valor real de ponto flutuante, com uma precis\~{a}o de cerca de 7 casas dígitos significativos que vai at\'{e} valores de 32 bits. Para que o compilador não confunda um valor do tipo float com o tipo double, \'{e} necess\'{a}rio colocar o sufixo 'f'. Isso não \'{e} obrigatório, por\'{e}m auxilia o compilador a identificar o tipo do dado. 
+ 	
+ 	\begin{lstlisting}
+ 		scala> var pi: Float = 3.141593f
+ 		var pi: Float = 3.141593
+ 	\end{lstlisting}
+    
+    \subsection{Long}
+    
+    Em Scala, o Long representa assim como o Int um tipo inteiro por\'{e}m longo, ou seja ele atinge valores que vão at\'{e} os 64 bits. Assim como o tipo Float, tamb\'{e}m \'{e} necess\'{a}rio usar um sufixo para que o compilador identifique o tipo do dado iniciado, neste caso o sufixo que deverá ser utilizado \'{e} o 'l'.
+    
+    \begin{lstlisting}
+    	scala> var num: Long = 34576934l
+    	var num: Long = 34576934
+    \end{lstlisting}
+
+	\subsection{Short}
+	
+	Semelhante ao Long, o Short tamb\'{e}m representa n\'{u}meros inteiros por\'{e}m mais curtos, armazenando at\'{e} 16 bits.
+	
+	\begin{lstlisting}
+		scala> val numS: Short = 6436
+		val numS: Short = 6436
+	\end{lstlisting}
+
+	O Short \'{e} extremamente útil para opera\c{c}\~{o}es com valores inteiros inferiores ao intervalo suportado pelo Int, al\'{e}m disso o Short ocupa menos espaço de mem\'{o}ria que o Int.
+    
+    \subsection{Byte}
+    
+    Como o próprio nome, o Byte \'{e} capaz de armazenar dados de tamanho ainda menor que o Short, chegando a uma quantia equivalente a 8 bits, uma vez que 1 byte equivalem a 8 bits.
+    
+    \begin{lstlisting}
+    	scala> val dia: Byte = 21
+    	val dia: Byte = 21
+    \end{lstlisting}
+
+	Assim como o Short, o Byte \'{e} utilizado em opera\c{c}\~{o}es de n\'{u}meros pequenos, por\'{e}m \'{e} importante lembrar que os valores do Byte pertencem a um intervalo extremamente pequeno (-128 a 127).
+	
+	\subsection{Double}
+	
+	Em Scala o Double \'{e} utilizado para representar valores reais de ponto flutuantes que vão at\'{e} 64 bits, isso faz com que a precis\~{a}o dos valores seja aumentada.
+	
+	\begin{lstlisting}
+		scala> val e: Double = 2.71828182845995
+		val e: Double = 2.71828182845995
+	\end{lstlisting}
+    
+    \subsection{Boolean}
+    
+    Na linguagem Scala o Boolean, representa os valores boolanos, ou seja representam valores l\'{o}gicos de verdadeiro (true) ou falso (false). Vale lembrar que o funcionamento das opera\c{c}\~{o}es l\'{o}gicas serão melhor abordadas na próxima seção desse cap\'{i}tulo.
+    
+    \begin{lstlisting}
+    	scala> val aprovacao: Boolean = true
+    	val aprovacao: Boolean = true
+    \end{lstlisting}
+    
+    %%%%%%%%=================================
+    \section{Operadores e Express\~{o}es em Scala}
+    %%%%%%%%=================================
+	
+	Nessa seção abordaremos o funcionamento das opera\c{c}\~{o}es aritm\'{e}ticas, comparativas e l\'{o}gicas na linguagem Scala, assim como exemplos demonstrando as suas utilizações.
+	
+	\subsection{Operadores Aritm\'{e}ticos}
+	Em Scala, os operadores aritm\'{e}ticos s\~{a}o os mesmos que outras linguagens de programa\c{c}\~{a}o geralmente possuem. 
+	
+	s\~{a}o elas:
+	\begin{itemize}
+		\item Soma (+): utilizada para executar a soma entre valores.
+		\item subtra\c{c}\~{a}o (-): usada para efetuar a subtra\c{c}\~{a}o entre valores.
+		\item multiplica\c{c}\~{a}o (*): usada para realizar a multiplica\c{c}\~{a}o entre valores.
+		\item Divis\~{a}o (/): utilizada na execução da divis\~{a}o entre valores.
+		\item Módulo (\%): usada para obter o resto de divis\~{a}o entre valores.
+	\end{itemize}
+
+	Com esses operadores aritm\'{e}ticos \'{e} poss\'{i}vel realizar in\'{u}meras opera\c{c}\~{o}es matemáticas entre valores quaisquer, inclusive entre vari\'{a}veis que guardem n\'{u}meros.
+	
+	Exemplo:
+	
+	\begin{lstlisting}
+		scala> var x: Int = 5
+		var x: Int = 5
+		
+		scala> var y: Int = 3
+		var y: Int = 3
+		
+		scala> x + y
+		val res0: Int = 8
+		
+		scala> x - y
+		val res1: Int = 2
+		
+		scala> x * y
+		val res2: Int = 15
+		
+		scala> x / y
+		val res4: Int = 1
+		
+		scala> x % y
+		val res5: Int = 2
+	\end{lstlisting}
+
+	\'{e} importante observar que os resultados das opera\c{c}\~{o}es s\~{a}o guardados em vari\'{a}veis do tipo Int, fazendo com que valores de tipos distintos não sejam aceitos. \'{e} poss\'{i}vel observar isso na opera\c{c}\~{a}o de divis\~{a}o entre x e y, uma vez que o valor da divis\~{a}o de 5 por 3 \'{e} um dizima periódica de valor aproximadamente 1.67, ou seja, um ponto flutuante. Por\'{e}m em Scala, quando se deseja guardar um valor flutuante em uma vari\'{a}vel do tipo inteiro, \'{e} armazenada apenas a parte inteira do n\'{u}mero, neste caso o valor 1.
+	
+	\subsection{Operadores L\'{o}gicos}
+	
+	De acordo com \cite{Wampler2021} os operadores l\'{o}gicos s\~{a}o símbolos usados para realizar opera\c{c}\~{o}es l\'{o}gicas entre valores booleanos, devolvendo assim um novo valor booleano.
+	
+	s\~{a}o eles:
+	
+	\begin{itemize}
+		\item Operador AND (\&\&): realiza a opera\c{c}\~{a}o "e" entre valores.
+		\item Operador OR (||): executa a opera\c{c}\~{a}o "ou" entre valores.
+		\item Operador NOT (!): realiza a nega\c{c}\~{a}o de um valor ou opera\c{c}\~{a}o.
+	\end{itemize}
+	
+	Para utilizar esses operadores \'{e} necess\'{a}rio primeiramente entender um pouco do funcionamento da lógica booleana.
+	\subsubsection{Operador AND}
+	Considerando duas premissas, P e Q que podem assumir tanto verdadeiro quanto falso, temos que a tabela verdade do operador and funciona da seguinte forma:
+	\begin{table}[h!]
+		\centering
+		\begin{tabular}{|c|c||c|}
+			\hline
+			$P$ & $Q$ & $P \land Q$ \\
+			\hline
+			\hline
+			Verdadeiro & Verdadeiro & Verdadeiro \\
+			\hline
+			Verdadeiro & Falso & Falso \\
+			\hline
+			Falso & Verdadeiro & Falso \\
+			\hline
+			Falso & Falso & Falso \\
+			\hline
+		\end{tabular}
+		\caption{Tabela verdade do operador "and".}
+		\label{tab:and}
+	\end{table}
+
+	\'{e} importante lembrar que quando s\~{a}o feitas opera\c{c}\~{o}es usando o operador "and" entre duas premissas, só \'{e} verdadeiro quando ambas as premissas s\~{a}o verdadeiras.
+	
+	\subsubsection{Operador OR}
+	Considerando duas premissas, P e Q que podem assumir tanto verdadeiro quanto falso, temos que a tabela verdade do operador or funciona da seguinte forma:
+	
+	\begin{table}[h!]
+	\centering
+		\begin{tabular}{|c|c||c|}
+			\hline
+			$P$ & $Q$ & $P \lor Q$ \\
+			\hline
+			\hline
+			Verdadeiro & Verdadeiro & Verdadeiro \\
+			\hline
+			Verdadeiro & Falso & Verdadeiro \\
+			\hline
+			Falso & Verdadeiro & Verdadeiro \\
+			\hline
+			Falso & Falso & Falso \\
+			\hline
+		\end{tabular}
+	\caption{Tabela verdade do operador "or".}
+	\label{tab:or}
+	\end{table}
+	
+	Vale ressaltar que quando se utiliza o operador "or", o retorno \'{e} falso apenas quando as premissas P e Q tamb\'{e}m s\~{a}o falsas.
+
+	\subsubsection{NOT}
+	Considerando uma premissa, P que pode assumir tanto verdadeiro quanto falso, temos que a tabela verdade do operador not funciona da seguinte forma:
+	
+	\begin{center}
+		\begin{tabular}{|c||c|}
+			\hline
+			$P$ & $\neg P$ \\
+			\hline
+			\hline
+			Verdadeiro & Falso \\
+			\hline
+			Falso & Verdadeiro \\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	\'{e} poss\'{i}vel perceber que quando se utiliza o operador "not" o valor da premissa P \'{e} invertido.
+	
+	Exemplo de algumas opera\c{c}\~{o}es l\'{o}gicas em Scala:
+	\begin{lstlisting}
+		scala> val a: Boolean = true
+		val a: Boolean = true
+		
+		scala> val b: Boolean = false
+		val b: Boolean = false
+		
+		scala> val c: Boolean = true
+		val c: Boolean = true
+		
+		scala> val d: Boolean = false
+		val d: Boolean = false
+		
+		scala> a && b
+		val res0: Boolean = false
+		
+		scala> a && c
+		val res1: Boolean = true
+		
+		scala> a || b
+		val res2: Boolean = true
+		
+		scala> b || d
+		val res3: Boolean = false
+		
+		scala> !a
+		val res4: Boolean = false
+	\end{lstlisting}
+
+	\subsection{Operadores Comparadores}
+	
+	Conforme afirmado por \cite{Odersky}, os operadores de compara\c{c}\~{a}o em Scala s\~{a}o usados para comparar valores, retornando um valor booleano verdadeiro ou falso.
+	
+	\begin{itemize}
+		\item Maior que (>): Retorna verdadeiro se o n\'{u}mero da esquerda for maior que o da direita.
+		\item Menor que (<): Retorna verdadeiro se o n\'{u}mero da esquerda for menor que o da direita
+		\item Maior ou igual a (>=): Retorna verdadeiro se o n\'{u}mero da esquerda for maior ou igual ao da direita.
+		\item Menor ou igual a (<=): Retorna verdadeiro se o n\'{u}mero da esquerda for menor ou igual ao da direita.
+		\item Igual a (==): Retorna verdadeiro se o n\'{u}mero da esquerda for igual ao da direita.
+		\item Diferente de (==): Retorna verdadeiro se o n\'{u}mero da esquerda for diferente do valor da direita.
+	\end{itemize}
+
+	Exemplos de opera\c{c}\~{o}es com operadores de compara\c{c}\~{a}o:
+	
+	\begin{lstlisting}
+		scala> val a: Int = 9
+		val a: Int = 9
+		
+		scala> val b: Int = 3
+		val b: Int = 3
+		
+		scala> val c: Int = 9
+		val c: Int = 9
+		
+		scala> a > b
+		val res0: Boolean = true
+		
+		scala> a < b
+		val res1: Boolean = false
+		
+		scala> b >= c
+		val res2: Boolean = false
+		
+		scala> a >= c
+		val res3: Boolean = true
+		
+		scala> a == c
+		val res4: Boolean = true
+		
+		scala> b != c
+		val res5: Boolean = true
+	\end{lstlisting}
+
+	\section{Entrada e Sa\'{i}da de Dados}
+	
+	Em programa\c{c}\~{a}o, a entrada e sa\'{i}da de dados se refere a como um c\'{o}digo \'{e} capaz de receber dados de um usu\'{a}rio e como esse mesmo programa \'{e} capaz de devolver alguma informação.
+	
+	Para demonstrar esses conceitos ser\'{a} necess\'{a}rio o uso de uma IDE para que seja poss\'{i}vel criar e executar um c\'{o}digo de maneira efetiva.
+	
+	\subsection{Sa\'{i}da}
+	
+	Conforme dito por \cite{Odersky}, em Scala existem duas formas para mostrar a sa\'{i}da de um dado para o usu\'{a}rio, muito semelhantes as já existentes em outras linguagens. s\~{a}o elas os comandos print e println, sendo que o primeiro mostra uma sequ\^{e}ncia de caracteres escrito em seu interior por\'{e}m não quebra a linha, já o segundo tamb\'{e}m mostra a sequ\^{e}ncia de caracteres por\'{e}m quebrando a linha.
+	
+	\begin{lstlisting}[breaklines]
+		println("Havera uma quebra de linha no final desse texto!")
+		print("E possivel escrever uma frase ")
+		print("utilizando dois prints diferentes \n")
+	\end{lstlisting}
+	
+	Note que ainda \'{e} poss\'{i}vel quebrar a linha utilizando o comando \textbackslash n dentro do próprio print.
+	
+	\subsection{Entrada}
+	
+	Em Scala, para receber dados de um usu\'{a}rio \'{e} necess\'{a}rio importar uma biblioteca chamada 'scala.io.Stdln', ela permite que o usu\'{a}rio possa dar a entrada de dados em um c\'{o}digo.
+	
+	\begin{lstlisting}[breaklines]
+		import scala.io.StdIn.readLine
+		
+		object hello {
+			def main(args: Array[String]): Unit = {
+				println("Para qual time voce torce? ")
+				val time : String = readLine ()
+			}
+		}
+	\end{lstlisting}
+
+	\section{Estruturas Condicionais}
+	
+	Segundo \cite{Wampler2021}, em programa\c{c}\~{a}o no geral, as estruturas condicionais s\~{a}o construções que permitem o programa tomar decis\~{o}es se baseando em condi\c{c}\~{o}es estabelecidas pelo programador. Essas condi\c{c}\~{o}es podem retornar valores booleanos, ou uma vari\'{a}vel ou n\'{u}mero que pode ser avaliado e retornar um valor booleano. A estrutura condicional tem o papel de avaliar essas condi\c{c}\~{o}es, e dependendo do retorno dado, executar ou não um certo trecho do c\'{o}digo. Em Scala existem duas principais estruturas condicionais, s\~{a}o elas: o 'if' e o 'match'.
+	
+	\subsection{if}
+	A estrutura condicional if \'{e} semelhante a de outras linguagens de programa\c{c}\~{a}o, de acordo com \cite{Sfregola2021}, nela \'{e} apresentada uma condi\c{c}\~{a}o que se retornar um valor verdadeiro, o c\'{o}digo apresentado em seu corpo \'{e} executado.
+	
+	\begin{lstlisting}[breaklines]
+		if(condicao) {
+		  //codigo que deseja ser executado se condicao for true	
+	        }   
+	\end{lstlisting}
+	
+	A estrutura if ainda pode ter uma variação tamb\'{e}m presente em outras linguagens de programa\c{c}\~{a}o: o if - else. Essa variação permite que o c\'{o}digo possa tomar uma ação alternativa se a condi\c{c}\~{a}o imposta no if retornar falso.
+	
+	\begin{lstlisting}[breaklines]
+		if(condicao) {
+		  //codigo que deseja ser executado se condicao for true	
+		}   
+	
+		else {
+		  //codigo que deseja ser executado se condicao for false
+		}
+	\end{lstlisting}
+
+	Exemplo de uma aplica\c{c}\~{a}o do if - else em um c\'{o}digo:
+	
+	\begin{lstlisting}
+		val num = 4
+		
+		if (num % 2 == 0) {
+			println("O numero e par")
+		}
+		
+		else {
+			println("O numero e impar")
+		}
+	
+		[Running] O numero e par
+	\end{lstlisting}
+
+	O c\'{o}digo apresentado \'{e} respons\'{a}vel por verificar se um n\'{u}mero qualquer \'{e} par ou ímpar, \'{e} importante notar que a condi\c{c}\~{a}o 'num \% 2 == 0' retornou verdadeiro e seu c\'{o}digo foi executado, caso a condi\c{c}\~{a}o retornasse falso, o c\'{o}digo presente no corpo de else seria executada. \'{e} importante ressaltar ainda que o comando 'println()' \'{e} utilizado para mostrar na tela do usu\'{a}rio a sequ\^{e}ncia de caracteres escritas em seu interior.
+	
+	\subsection{match}
+	
+	Como dito por \cite{Odersky}, a estrutura match em Scala \'{e} usada para testar uma sequ\^{e}ncia de padrões e/ou condi\c{c}\~{o}es, e de acordo com o resultado, realizar uma ação correspondente. A estrutura do match funciona da seguinte forma:
+	
+	\begin{lstlisting}
+		    value match {
+			  case padrao1 => fazer1
+			  case padrao2 => fazer2
+			  case padrao3 => fazer3
+			  case _ => AcaoPadrao
+		    }
+	\end{lstlisting}
+
+	No exemplo acima, 'value' \'{e} o valor que est\'{a} sendo analisado, 'padrao1', 'padrao2' e 'padrao3' s\~{a}o condi\c{c}\~{o}es que ser\'{a} verificadas, e 'fazer1', 'fazer2' e 'fazer3' s\~{a}o as ações que serão tomadas caso a condi\c{c}\~{a}o seja verificada, e por fim o 'case\_' correspondo a ação tomada caso nenhuma das anteriores sejam verificadas.
+	
+	\begin{lstlisting}[breaklines]
+		val num = "Pedro"
+		
+		num match {
+		  case "Pedro" => println("O nome e Pedro")
+		  case "Kevin" => println("O nome e Kevin")
+		  case "Enzo" => println("O nome e Enzo")
+		  case _ => println("E outro nome")
+	}
+	
+	[Running] O nome e Pedro
+	\end{lstlisting}
+	 
+	 Observe que o valor 'num' \'{e} testado no interior no match e \'{e} verificado no primeiro caso a condi\c{c}\~{a}o, com isso \'{e} executada a ação desejada, nesse caso mostrar para o usu\'{a}rio o nome do individuo.
+	 
+	 \section{Estruturas de Repeti\c{c}\~{a}o}
+	 
+	 Como citado por \cite{Wampler2021}, em programa\c{c}\~{a}o, uma estrutura de repeti\c{c}\~{a}o \'{e} uma constru\c{c}\~{a}o que permite o programa executar um trecho do c\'{o}digo diversas vezes enquanto uma determinada condi\c{c}\~{a}o se provar verdadeira. Em Scala existem duas estruturas de repeti\c{c}\~{a}o principais, o for e o while.
+	 
+	 \subsection{while}
+	 
+	 A estrutura while em Scala funciona de forma semelhante ao while presente em outras linguagens de programa\c{c}\~{a}o, segundo \cite{Wampler2021}, \'{e} dada uma condi\c{c}\~{a}o e enquanto essa condi\c{c}\~{a}o for verificada, o c\'{o}digo presente em seu corpo ser\'{a} executado. A estrutura do while \'{e} dada da seguinte forma:
+	 
+	 \begin{lstlisting}
+	 	while (condicao) {
+		  //corpo da estrutura com o codigo 	
+ 	}
+	 \end{lstlisting}
+ 
+ 	Exemplo de um contador utilizando a estrutura de repeti\c{c}\~{a}o while:
+ 	
+ 	\begin{lstlisting}
+ 		var i = 0
+ 		
+ 		while (i <= 5) {
+ 			println(i)
+ 			i  += 1
+ 		}
+ 		[Running] 0
+ 		1
+ 		2
+ 		3
+ 		4
+ 		5
+ 	\end{lstlisting}
+	 
+	O c\'{o}digo acima apresenta uma vari\'{a}vel \'{i}ndice i que \'{e} iniciada com 0, logo a condi\c{c}\~{a}o 'i <= 5' \'{e} verificada e o loop \'{e} iniciado enquanto a condi\c{c}\~{a}o for verdadeira, sempre acrescentando 1 na vari\'{a}vel contadora i.
+	
+	\subsection{for}
+	
+	A estrutura de repeti\c{c}\~{a}o for \'{e} usada para interagir com uma sequ\^{e}ncia de valores, ou realizar uma s\'{e}rie de repetições uma quantia específica de vezes. A estrutura dela \'{e} dada da seguinte forma:
+	
+	\begin{lstlisting}
+		for(indice <- inicio to fim by passo) {
+		  //corpo com o codigo
+	}
+	\end{lstlisting} 
+
+	A estrutura for deve apresentar uma vari\'{a}vel \'{i}ndice (que funcionará como um contador) que deve apresentar um início e um fim, sendo que cada repeti\c{c}\~{a}o ser\'{a} acrescentado um valor ao \'{i}ndice baseado no passo imposto pelo programador, at\'{e} que esse \'{i}ndice atinja o seu fim. Vale lembrar que caso não seja imposto nenhum passo, por padrão ele ter\'{a} o valor 1.
+	
+	Exemplo de um contador usando o for:
+	
+	\begin{lstlisting}
+		for(i <- 0 to 10 by 2) {
+			println("Mensagem "+ i)
+		}
+	
+		[Running] Mensagem 0
+		Mensagem 2
+		Mensagem 4
+		Mensagem 6
+		Mensagem 8
+		Mensagem 10
+	\end{lstlisting}
+
+	No c\'{o}digo acima o for \'{e} iniciado com um \'{i}ndice i começando 0 indo at\'{e} o 10 somando de 2 em 2, e a cada repeti\c{c}\~{a}o \'{e} executado o c\'{o}digo presente em seu corpo, que no caso \'{e} mostrar uma mensagem para o usu\'{a}rio.

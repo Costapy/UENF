@@ -1,0 +1,98 @@
+2023.06.13 08:30:52 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala' for client Visual Studio Code 1.79.0.
+jun 13, 2023 8:30:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.16.3 by Redgate
+jun 13, 2023 8:30:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+jun 13, 2023 8:30:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\.metals\metals (H2 2.1)
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMAÇÕES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.011s)
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMAÇÕES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": << Empty Schema >>
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "1 - Create tables"
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jun 13, 2023 8:30:53 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.037s)
+2023.06.13 08:30:53 INFO  time: initialize in 0.51s
+jun 13, 2023 8:30:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2
+2023.06.13 08:30:54 WARN  Build server is not auto-connectable.
+2023.06.13 08:30:54 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:30:55 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.13 08:30:57 INFO  time: code lens generation in 3.44s
+2023.06.13 08:30:57 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+jun 13, 2023 8:30:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 6
+2023.06.13 08:30:57 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:17 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:30 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:31 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:33 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:36 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:41 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:46 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:48 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:53 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:56 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:31:59 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:00 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:02 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:03 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:05 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:17 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:31 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:36 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:44 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:32:52 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 08:55:09 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 09:05:15 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 09:06:49 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\fatorial-scala\src\main\scala\Main.scala
+2023.06.13 09:07:09 INFO  
+2023.06.13 09:07:09 INFO  Template applied in C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\.\ex7
+2023.06.13 09:07:09 INFO  
+2023.06.13 09:07:09 INFO  time: ran 'giter8.Giter8' in 6.58s
+2023.06.13 09:07:13 INFO  Shutting down server
+2023.06.13 09:07:13 INFO  shutting down Metals
+2023.06.13 09:07:13 INFO  Exiting server
+2023.06.22 10:07:39 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio' for client Visual Studio Code 1.79.2.
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.16.3 by Redgate
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio\.metals\metals (H2 2.1)
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.016s)
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": 4
+jun 22, 2023 10:07:39 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.22 10:07:39 INFO  time: initialize in 0.53s
+2023.06.22 10:07:40 WARN  Build server is not auto-connectable.
+2023.06.22 10:07:40 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio\src\main\scala\Main.scala
+2023.06.22 10:07:42 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+jun 22, 2023 10:07:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1
+2023.06.22 10:07:42 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio\src\main\scala\Main.scala
+2023.06.22 10:07:42 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Uenf\Paradigmas\Gabriel Costa Fassarella - Scala\Scala\Regra-do-Trapezio\src\main\scala\Main.scala
+2023.06.22 10:07:44 INFO  time: code lens generation in 1.79s
+2023.06.22 10:07:44 INFO  time: code lens generation in 1.81s
+2023.06.22 10:07:53 INFO  Shutting down server
+2023.06.22 10:07:53 INFO  shutting down Metals
+2023.06.22 10:07:53 INFO  Exiting server

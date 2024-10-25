@@ -1,0 +1,127 @@
+% Autor: Gabriel Costa Fassarella
+% Data: 16/03/2023
+% UENF - CCT - LCMAT - C.Computação 
+% Prof. Ausberto Castro
+% Disciplina: Paradigmas de Linguagem de Programação
+%%%---------------------------------------------
+
+\documentclass[12pt,fleqn]{book} % Default font size and left-justified equations
+
+%----------------------------------------------------------------------------------------
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\coordinate [below=12cm] (midpoint) at (current page.north);
+\node at (current page.north west)
+{\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north west,inner sep=0pt] at (0,0)
+        {\includegraphics[width=\paperwidth]{capa.png}}; %Capa Imagem A4 21x29.7
+\draw[anchor=north] (midpoint) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]
+        {\paperwidth}
+        {\centering Introdu\c{c}\~{a}o \`{a} Linguagem Scala\\[5pt] % Titulo Livro
+{\Large Paradigmas de Linguagens de Programa\c{c}\~{a}o}\\[20pt] % Subtitle
+{\huge   \color{blue} Gabriel Costa Fassarella}\\ % Autor nome
+{\huge  \color{blue}  Ausberto S. Castro Vera}\\
+{\small \today}
+}}; % Autor nome
+\end{tikzpicture}};
+\end{tikzpicture}
+\vfill
+
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+\input{ficha.tex}
+\newpage
+~\vfill
+
+\thispagestyle{empty}
+
+\noindent Copyright \copyright\  \the\year{} Gabriel Costa Fassarella e Ausberto S. Castro Vera\\ % Copyright notice
+
+\noindent \textsc{UENF - Universidade Estadual do Norte Fluminense Darcy Ribeiro}\\ % Universidade
+
+\noindent \textsc{CCT - Centro de Ci\^{e}ncia e Tecnologia}\\ % Centro
+\noindent \textsc{LCMAT - Laborat\'{o}rio de Matem\'{a}ticas}\\ % Laboratorio
+\noindent \textsc{CC - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o}\\ % Curso
+
+%\input{autor.tex} \\
+
+\noindent \textit{Primeira edi\c{c}\~{a}o, Abril 2023} % Printing/edition date
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{sumario01.jpg} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\addtocontents{toc}{\protect{\pdfbookmark[0]{\contentsname}{toc}}}
+\tableofcontents % Print the table of contents itself
+
+\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+%----------------------------------------------------------------------------------------
+%	PART
+%----------------------------------------------------------------------------------------
+%\part{Part One}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTERS
+%----------------------------------------------------------------------------------------
+\input{01introduc.tex}
+
+\chapterimage{capitulo.jpg} % Chapter heading image
+\input{02basicos.tex}
+\input{03Program.tex}
+\input{04aplic.tex}
+\input{05ferramentas.tex}
+
+
+
+
+\input{06conclusao.tex}
+
+
+
+
+
+
+
+
+
+
+\chapterimage{Bibliografia.png}
+\bibliographystyle{alpha}
+\bibliography{Gabriel}
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliografia}}
+%----------------------------------------------------------------------------------------
+%	INDEX
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+\phantomsection
+\setlength{\columnsep}{0.75cm}
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
+\printindex
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+

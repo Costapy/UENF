@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1699307728 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreBinaria.h"
+
+1699307634 c:\almeida\estudos\uenf\4º período\ed ii\l2\4\arvorebinaria.h
+
+1699307821 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\4\arvorebinaria.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreBinaria.h"
+
+1701125257 source:c:\users\gvalm\downloads\l2 2\4\arvorebinaria.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreBinaria.h"
+
+1701125257 c:\users\gvalm\downloads\l2 2\4\arvorebinaria.h
+
+1701125257 source:c:\users\gvalm\downloads\l2 2\4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreBinaria.h"
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\binaria\arvorebinaria.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreBinaria.h"
+
+1701436866 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\binaria\arvorebinaria.h
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\binaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreBinaria.h"
+

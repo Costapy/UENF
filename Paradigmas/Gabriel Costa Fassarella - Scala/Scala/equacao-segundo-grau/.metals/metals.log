@@ -1,0 +1,111 @@
+2023.06.12 21:22:04 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau' for client Visual Studio Code 1.79.0.
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.16.3 by Redgate
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\.metals\metals (H2 2.1)
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMAÇÕES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.013s)
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMAÇÕES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": << Empty Schema >>
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "1 - Create tables"
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jun 12, 2023 9:22:05 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.041s)
+2023.06.12 21:22:05 INFO  time: initialize in 0.53s
+2023.06.12 21:22:06 WARN  Build server is not auto-connectable.
+2023.06.12 21:22:06 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:08 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+jun 12, 2023 9:22:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1
+2023.06.12 21:22:10 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:14 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:22 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:27 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:28 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:32 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:38 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:48 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+jun 12, 2023 9:22:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 184
+2023.06.12 21:22:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:54 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:56 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:22:59 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:23:15 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:23:17 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:23:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+jun 12, 2023 9:23:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 344
+2023.06.12 21:23:38 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:24:14 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:24:16 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:24:20 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:26:35 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:26:42 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:26:45 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+jun 12, 2023 9:26:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 572
+2023.06.12 21:26:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:26:57 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:01 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:08 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:12 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:17 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:24 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:31 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:43 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:47 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:27:53 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+jun 12, 2023 9:27:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 875
+2023.06.12 21:27:58 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:28:05 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 21:28:08 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 22:01:53 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.12 22:01:54 INFO  Shutting down server
+2023.06.12 22:01:54 INFO  shutting down Metals
+2023.06.12 22:01:54 INFO  Exiting server
+2023.06.13 08:30:27 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau' for client Visual Studio Code 1.79.0.
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.16.3 by Redgate
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\.metals\metals (H2 2.1)
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.018s)
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": 4
+jun 13, 2023 8:30:28 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.13 08:30:28 INFO  time: initialize in 0.55s
+2023.06.13 08:30:29 WARN  Build server is not auto-connectable.
+2023.06.13 08:30:29 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala
+2023.06.13 08:30:31 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\equacao-segundo-grau\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.13 08:30:33 INFO  time: code lens generation in 3.5s
+2023.06.13 08:30:33 INFO  time: code lens generation in 4.02s
+2023.06.13 08:30:46 INFO  
+2023.06.13 08:30:46 INFO  Template applied in C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\.\fatorial-scala
+2023.06.13 08:30:46 INFO  
+2023.06.13 08:30:46 INFO  time: ran 'giter8.Giter8' in 6.86s
+2023.06.13 08:30:48 INFO  Shutting down server
+2023.06.13 08:30:48 INFO  shutting down Metals
+2023.06.13 08:30:48 INFO  Exiting server

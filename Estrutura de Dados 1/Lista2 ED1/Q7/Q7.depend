@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1686321112 source:c:\users\gabriel\desktop\lista2\q7\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1686320167 c:\users\gabriel\desktop\lista2\q7\lista.h
+	<stdbool.h>
+
+1686320183 source:c:\users\gabriel\desktop\lista2\q7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cType.h>
+	<stdbool.h>
+	"lista.h"
+
+1686321112 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 1\lista2 ed1\q7\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1686320167 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 1\lista2 ed1\q7\lista.h
+	<stdbool.h>
+
+1686321129 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 1\lista2 ed1\q7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cType.h>
+	<stdbool.h>
+	"lista.h"
+

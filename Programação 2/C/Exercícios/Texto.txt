@@ -1,0 +1,10 @@
+A ciencia da computacao busca construir uma base cientifica para 
+uma diversidade de topicos, tais como a construcao e a programacao 
+de computadores, o processamento de informacoes, a solucao algoritmica 
+de problemas e o estudo dos algoritmos propriamente ditos. Nesse sentido, 
+estabelece os fundamentos para as aplicacoes computacionais existentes, 
+assim como as bases para as futuras aplicacoes. Nao se pode, no entanto, 
+aprender ciencia da computacao pelo simples estudo de alguns topicos isolados, 
+ou pela utilizacao das ferramentas computacionais existentes. Mais do que
+entender a ciencia da computacao, é preciso comprender o escopo e a dinamica 
+grande variedade de topicos de que trata esta importante disciplina.

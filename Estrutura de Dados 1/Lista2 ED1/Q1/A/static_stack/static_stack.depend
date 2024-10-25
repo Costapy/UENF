@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1684684638 source:c:\almeida\estudos\c\ed1\lista2\q1\b\static_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684684722 source:c:\almeida\estudos\c\ed1\lista2\q1\b\static_stack\static_stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684683078 c:\almeida\estudos\c\ed1\lista2\q1\b\static_stack\static_stack.h
+
+1684684638 source:c:\almeida\estudos\c\ed1\lista2\q1\a\static_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684683078 c:\almeida\estudos\c\ed1\lista2\q1\a\static_stack\static_stack.h
+
+1684684722 source:c:\almeida\estudos\c\ed1\lista2\q1\a\static_stack\static_stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684670238 source:c:\users\gabriel\desktop\lista2\q1\a\static_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684668678 c:\users\gabriel\desktop\lista2\q1\a\static_stack\static_stack.h
+
+1684670322 source:c:\users\gabriel\desktop\lista2\q1\a\static_stack\static_stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684670238 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\a\static_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+
+1684668678 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\a\static_stack\static_stack.h
+
+1684670322 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q1\a\static_stack\static_stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"static_stack.h"
+

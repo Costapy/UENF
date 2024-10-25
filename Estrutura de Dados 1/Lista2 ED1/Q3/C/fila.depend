@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1684768610 source:c:\almeida\estudos\c\ed1\fila\fila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684764367 source:c:\almeida\estudos\c\ed1\fila\fila\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684763745 c:\almeida\estudos\c\ed1\fila\fila\fila.h
+
+1684768840 source:c:\almeida\estudos\c\ed1\lista2\q3\c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684763745 c:\almeida\estudos\c\ed1\lista2\q3\c\fila.h
+
+1684769132 source:c:\almeida\estudos\c\ed1\lista2\q3\c\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684754732 source:c:\users\gabriel\desktop\lista2\q3\c\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684749344 c:\users\gabriel\desktop\lista2\q3\c\fila.h
+
+1686153808 source:c:\users\gabriel\desktop\lista2\q3\c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+

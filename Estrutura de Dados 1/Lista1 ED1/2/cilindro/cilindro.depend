@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1681951308 source:c:\almeida\estudos\c\ed1\cilindro\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cilindro.h"
+
+1681950865 source:c:\almeida\estudos\c\ed1\cilindro\cilindro.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"cilindro.h"
+
+1681950868 c:\almeida\estudos\c\ed1\cilindro\cilindro.h
+
+1681936464 source:c:\users\gabriel\desktop\cilindro\cilindro.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"cilindro.h"
+
+1681936468 c:\users\gabriel\desktop\cilindro\cilindro.h
+
+1681936908 source:c:\users\gabriel\desktop\cilindro\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cilindro.h"
+
+1681996058 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\trabalho\2\cilindro\cilindro.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"cilindro.h"
+
+1681936468 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\trabalho\2\cilindro\cilindro.h
+
+1681996054 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\trabalho\2\cilindro\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cilindro.h"
+

@@ -1,0 +1,151 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2023
+% Disciplina: An\'{a}lise e Projeto de Sistemas
+% Aluno:
+
+
+\chapterimage{sistemas.png} % Table of contents heading image
+\chapter{ Introdu\c{c}\~{a}o}
+
+Análise de projeto de sistemas é uma disciplina da área da ciências da computação e engenharia de software responsável por se concentrar no processo de desenvolvimento de sistemas computacionais. Abordando desde a compreensão dos requisitos necessários para o sistema, a criação dos modelos e a definição de estruturas para a construção de um software funcional. 
+
+Neste documento será apresentado o sistema D.S.S - Delivery Status System, esse sistema é possível ser aplicado tanto por empresas de entregas internacionais, como por aplicativos de delivery de refeições, aprimorando a logística da empresa assim proporcionando uma melhor experiência ao cliente. Durante esse capítulo será abordada uma descrição do sistema e sua ideia, assim como os principais componentes que garantem a ele um funcionamento adequado.
+
+ \section{Descri\c{c}\~{a}o do Sistema Computacional a desenvolver}
+ 
+ 	O início do século XXI proporcionou ao mundo inúmeras mudanças na área da tecnologia, a principal foi a popularização da internet nas casas de grande parte da população mundial. Esse cenário foi capaz de dar um grande "boom" nas interações internacionais, visto que com a internet as relações entre indivíduos extremamente distantes passou a ser cada vez mais fácil de ocorrer. Além disso, a internet se mostrou uma grande ferramenta para o comércio mundial, visto que no mundo contemporâneo, se torna cada vez mais fácil efetuar compras de produtos de outros países, assim como também ocorre em compras locais, como em pedidos por meio de aplicativos de entregas de refeição por exemplo. 
+ 	
+ 	Com a evolução da tecnologia e a elevação nas taxas de pedidos por todo o mundo, torna-se necessário a criação de um sistema computacional eficiente de rastreamento de entregas em tempo real que ajude na eficiência e gestão das entregas assim como a experiência do cliente, para isso, será criada a ideia do sistema D.S.S.  
+
+        \subsection{Visibilidade Melhorada}
+        O sistema de monitoramento em tempo real D.S.S permite que uma empresa possa ser capaz de ter uma visão clara da localização aproximada de uma entrega no instante da consulta. Isso auxilia no monitoramento do processo de entregas, assim como a possibilidade de identificar possíveis atrasos que possam penalizar o cliente, e caso esse atraso seja muito significativo, a empresa é capaz de intervir rapidamente para tentar solucionar o problema encontrado durante o processo de entrega do produto até o seu destino final.
+        
+        
+        \subsection{Experiência do Cliente} 
+	Com o sistema D.S.S, os tanto os clientes quanto as empresas possuem acesso instantâneo de informações, status e localização aproximada da entrega. Isso melhora a transparência além de reduzir a incerteza do prazo de entrega, podendo proporcionar a uma empresa um melhor planejamento por exemplo até que o produto desejado chegue ao destino final. Com isso, notificações e atualizações da entrega ira manter os clientes informados, resultando numa experiência extremamente satisfatória para o comprador.
+
+        \subsection{Melhor Eficiência}
+    Empresas podem usar o sistema para melhorar a logística otimizando as rotas de entrega, utilizando como base os dados fornecidos em tempo real. Por isso, o sistema D.S.S faz com que empresas sejam capazes de realizar tomadas de decisões mais inteligentes e embasadas.
+    
+    A melhor eficiência de um sistema de entregas proporciona uma redução significativa no tempo de viagem e por consequência no custo dela, visto que o gasto de combustível será reduzido assim como o desgaste do veículo. Com isso, o uso do sistema D.S.S pode proporcionar uma ótima experiência ao cliente e a empresa que o utiliza.
+    
+    \subsection{Redução de Erros}
+    O acompanhamento em tempo real por meio do sistema de monitoramento D.S.S permite as empresas identificarem facilmente erros e problemas durante os processos de entrega, possibilitando a mesma poder tomar ações de correção mais rapidamente. Isso pode ocorrer em situações de mudanças de rota ou em atrasos.
+    
+    Além disso, a capacidade de rastrear entregas em tempo real ajuda a evitar problemas como extravios, danos ou atrasos não justificados, podendo assim identificar os responsabilizar todos os envolvidos na questão.
+    
+    \subsection{Monitoramento de Entregas de Alto Valor}
+    Por meio do sistema de monitoramento D.S.S, empresas que entregam produtos de alto valor agregado, como farmacêuticas e empresas do ramo tecnológico por exemplo, podem garantir uma melhor segurança de seus produtos através de um monitoramento constante dos mesmos. Isso ainda colabora com a gestão e logística da empresa, visto que auxilia no planejamento dos mesmos para a produção de novas levas de produtos por exemplo.
+    
+    \subsection{Análise de Desempenho}
+     O sistema de monitoramento D.S.S permite o setor de logística das empresas analisarem dados valiosos de uma entrega, e por meio de dados fornecidos por outras entregas, buscar padrões que auxiliem a melhora da eficiência da logística das entregas, possibilitando assim a redução de custos operacionais, resultando em uma operação econômica e lucrativa.
+     
+     \subsection{Competitividade}
+     Uma empresa que apresente um sistema de monitoramento em tempo real semelhante ao D.S.S, que seja eficiente, demonstra compromisso com o funcionamento e qualidade do serviço prestado. Isso permite com que ela se destaque entre as demais empresas do ramo, podendo assim atrair mais clientes e lucros.
+     
+     
+ \section{Identificando as componentes do meu sistema}
+
+      Nesta seção, serão incluídos os principais componentes necessários para o funcionamento adequado do sistema.
+     \subsection{Componente: Hardware}
+	  \begin{itemize}
+	  	\item \textbf{Dispositivo de Rastreamento:} São dispositivos responsáveis por monitoras a localização do produto e dados relevantes da entrega. Podem ser um GPS (global position system) incrementado no veículo responsável pelo transporte integrados em um sistema computacional, por exemplo. 
+	  	
+	  	\item \textbf{Dispositivo de Monitoramento:} O veículo ainda pode ser equipado com sensores responsáveis pelo monitoramento de cargas mais sensíveis e perecíveis por exemplo, como sensores de temperatura, umidade e pressão. O objetivo desses dispositivos é além de fornecer informações sobre o ambiente em que a entrega ocorre, garantir uma maior segurança da carga.
+	  	
+	  	\item \textbf{Rede de Comunicação:} Para o funcionamento do sistema, é extremamente essencial uma conexão de rede responsável pela transmissão de dados em tempo real, podendo ser alcançada por meio de redes móveis como, 3G, 4G ou 5G, redes Wi-Fi, ou atém mesmo redes de satélite, tudo dependendo da cobertura e trajeto das entregas.
+	  	
+	  	\item \textbf{Servidores e Armazenamento:} Todos os dados de rastreamento coletados devem ser enviados para servidores, onde podem ser processados, armazenados e disponibilizados para posteriormente serem visualizados e analisados. Devido a grande quantidade de dados, a infraestrutura desses servidores deve ser capaz de lidar com um grande quantidade de dados, garantindo um escalabilidade.
+	  	
+	  	\item \textbf{Dispositivos de Visualização:} Os clientes e empresas devem ter o acesso as informações proporcionadas pelo sistema assim que desejarem, para isso é necessário a utilização de dispositivos como computadores, celulares e tablets por exemplo. 
+	  \end{itemize}
+
+     \subsection{Componente: Software}
+     \begin{itemize}
+     	\item \textbf{Aplicativos de Rastreamento:} Aplicativos móveis ou web utilizado pelos funcionários para realizar atualizações sobre o status da entrega.
+     	
+     	\item \textbf{Software de Gerenciamento de Rota:} São softwares que permite a empresa monitorar e gerenciar as frotas de veículos, auxiliando na otimização e eficiência das entregas.
+     	
+     	\item \textbf{Software de Processamento de Dados:} Os dados coletados tanto pelos dispositivos de localização, quanto pelos sensores de monitoramento devem ser processados e transformados em informações. Para isso seria necessário o uso de um sistema de processamento de eventos e de um banco de dados para armazenar e consultar os dados.
+     	
+     	\item \textbf{Aplicativo Para Clientes:} Para dar visibilidade do status da entrega, seria necessário aplicativos ou plataformas web que permitem os clientes rastrearem as recomendas e verificar outras informações essenciais. 
+     	
+     	\item \textbf{Sistemas de Segurança:} Para garantir a segurança dos dados, sistemas de autenticação e medidas de segurança tornam-se necessários para garantir o funcionamento seguro do sistema.
+     \end{itemize}
+     
+
+     \subsection{Componente: Pessoas}
+	 \begin{itemize}
+	 	\item \textbf{Motoristas e Equipe:} São os funcionários responsáveis por realizarem as entregas de maneira adequada, atualizar o status informando possíveis problemas e atrasos.
+	 	
+	 	\item \textbf{Equipe de Logística:} É a equipe responsável por otimizar a eficiência das entregas, monitorar o processo, lidar com os problemas e mudanças repentinas, garantindo o funcionamento das entregas.
+	 	
+	 	\item \textbf{Equipe de Desenvolvimento:} São os responsáveis por desenvolver o sistema, garantir o funcionamento e a manutenção de todo o sistema. 
+	 \end{itemize}
+
+
+
+     \subsection{Componente: Banco de Dados}
+     \begin{itemize}
+     	\item \textbf{Armazenamento de Dados de Rastreamento:} O banco de dados deve ser responsável por armazenar informações sobre as entregas que estão em andamento, como a localização, motorista, status e eventos relevantes por exemplo. Sendo que frequentemente o sistema de rastreamento sofrerá atualizações, logo o banco de dados deve estar preparado para processar e armazenar essas informações.
+     	
+     	\item \textbf{Dados do Cliente:} O banco de dados deve apresentar além de informações referentes as entregas, ele deve armazenar os dados dos clientes, como contato e históricos de pedidos por exemplo.
+     	
+     	\item \textbf{Escalabilidade:} O sistema de rastreamento em tempo real pode frequentemente estar lidando com um enorme volume de dados devido o grande número de atualizações e entregas simultâneas, por isso o banco de dados deve estar adaptado para lidar com tal escalabilidade, garantindo o funcionamento e eficiência do sistema.
+     	
+     	\item \textbf{Segurança:} Visto que os dados tanto das entregas quanto dos clientes podem apresentar informações sensíveis, é crucial a implementação de medidas de seguranças extremamente rigorosas para proteger os dados evitando acessos de indivíduos não autorizados.
+     	
+     \end{itemize}
+
+     \subsection{Componente: Documentos }
+     \begin{itemize}
+     \item \textbf{Relatórios:} São documentos responsáveis por detalhar as análises obtidas a partir dos dados de rastreamento, como desempenho, tendências, métricas operacionais e entre outros.
+     
+     \item \textbf{Requisitos de Sistema:} São os documentos que descrevem todos os requisitos funcionais e não funcionais que compõem o sistema de rastreamento, como recursos, funcionalidades, objetivo, desempenho e eficiência.
+     
+     \item \textbf{Integração:} Caso o sistema acabe se integrando com outros sistemas, é necessário a documentação das API's, os protocolos utilizados para a comunicação e padrões usados.
+     
+     \item \textbf{Manual de Usuário:} Funcionam como guias para os funcionários da empresa.
+     
+     \item \textbf{Políticas de Privacidade e Consentimento:} Documentos que informa ao usuário e cliente sobre o fato de que os dados deles serão coletados, utilizados e protegidos pela empresa.
+     	
+     	
+     \end{itemize}
+
+     \subsection{Componente: Metodologias ou Procedimentos}
+     \begin{itemize}
+     	\item \textbf{Desenvolvimento de Software:} Se referencia a metodologia utilizada para a construção e desenvolvimento do projeto, buscando um desenvolvimento ágil permitindo a adaptação e evolução. Para isso, deve ocorrer boas práticas de codificação e testes, garantindo a qualidade do software. 
+     	
+     	\item \textbf{Planejamento de Recursos:} É necessário determinar os recursos necessários para o desenvolvimento, como funcionários, hardware, software, infraestrutura e financiamento do projeto.
+     	
+     	\item \textbf{Gerenciamento:} Para um bom desenvolvimento do projeto é necessário uma boa gerência do mesmo, para isso é preciso planejar, executar, monitorar e controlar todas as etapas e atividades do projeto, garantindo uma boa execução de todo o conjunto. 
+     	
+     	\item \textbf{Implementação:} Para o lançamento do projeto, será necessário estabelecer procedimentos em ambientes de produção de forma controlada e segura, incluindo protocolos de segurança no caso de possíveis problemas.
+     	
+     	\item \textbf{Treinamento e Funcionários:} Para o funcionamento do projeto é necessário a contratação e o treinamento de um grupo de funcionários devidamente capacitados. 
+     \end{itemize}
+     
+
+     \subsection{Componente: Mobilidade}
+     \begin{itemize}
+     	\item \textbf{Dispositivos Móveis:} Os motoristas e a equipe de entraga devem possuir smartphones e tablets, com o intuito de atualizar o status da entrega e em casos de necessidade entrar em contato com a equipe de logística em tempo real assim que necessário.
+     	
+     	\item \textbf{Conectividade:} O acesso a internet é extremamente essencial para que ocorra a transferência de dados.
+     	
+     	\item \textbf{GPS:} A  mobilidade é totalmente relacionada com a capacidade do sistema de obter a localização em tempo real de algo, para isso é utilizado sistemas de rastreio como o GPS. 
+     \end{itemize}
+
+     \subsection{Componente: Nuvem}
+     \begin{itemize}
+     	\item \textbf{Armazenamento e Processamento de Dados:} Por meio da nuvem é possível realizar um armazenamento de grandes volumes de dados de maneira escalável, como o status da entrega, sua localização e dados relevantes de maneira totalmente optimizada.
+     	
+     	\item \textbf{Escalabilidade:} O armazenamento em nuvem deve garantir a escalabilidade, devido a frequente taxa de atualização e grande fluxo de dados, garantindo um melhor desempenho do sistema.
+     	
+     	\item \textbf{Backup:} A nuvem também pode oferecer opções de backup automático e recuperação de dados, garantindo a segurança do sistema em caso de falhas.
+     	
+     	\item \textbf{Segurança:} Devido o fato de que esses sistemas apresentam uma grande quantia de dados delicados, muitos provedores garantem medidas de seguranças robustas e eficazes, como criptografia e autenticação de dois fatores, o que é extremamente importante para garantir a segurança do sistema.
+     \end{itemize}
+
+
+

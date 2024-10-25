@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1699307728 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreBinaria.h"
+
+1699307634 c:\almeida\estudos\uenf\4º período\ed ii\l2\4\arvorebinaria.h
+
+1699307821 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\4\arvorebinaria.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreBinaria.h"
+

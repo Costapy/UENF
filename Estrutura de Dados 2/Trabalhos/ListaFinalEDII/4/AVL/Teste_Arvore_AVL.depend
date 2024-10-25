@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1697654242 source:e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1698841428 e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\arvoreavl.h
+
+1698841447 source:e:\pen_kingston\2023-2\aulas\estrutura de dados ii\programas\teste_arvores_backes\teste_arvore_avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1699302462 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\2\avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1699304486 c:\almeida\estudos\uenf\4º período\ed ii\l2\2\avl\arvoreavl.h
+
+1699304472 source:c:\almeida\estudos\uenf\4º período\ed ii\l2\2\avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701125257 source:c:\users\gvalm\downloads\l2 2\2\avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701125257 c:\users\gvalm\downloads\l2 2\2\avl\arvoreavl.h
+
+1701434325 source:c:\users\gvalm\downloads\l2 2\2\avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701436011 source:c:\users\gvalm\downloads\l2 2\4\avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701435631 c:\users\gvalm\downloads\l2 2\4\avl\arvoreavl.h
+
+1701435666 source:c:\users\gvalm\downloads\l2 2\4\avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\avl\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+
+1701436866 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\avl\arvoreavl.h
+
+1701436866 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\4\avl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ArvoreAVL.h"
+

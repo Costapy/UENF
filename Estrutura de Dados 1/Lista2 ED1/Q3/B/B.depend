@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1686168619 source:c:\almeida\estudos\c\ed1\lista2\q3\b\filaint.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"filaInt.h"
+
+1686168459 c:\almeida\estudos\c\ed1\lista2\q3\b\filaint.h
+
+1686154262 source:c:\users\gabriel\desktop\lista2\q3\b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"filaInt.h"
+
+1686154058 c:\users\gabriel\desktop\lista2\q3\b\filaint.h
+
+1686235229 source:c:\users\gabriel\desktop\lista2\q3\b\filaint.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"filaInt.h"
+

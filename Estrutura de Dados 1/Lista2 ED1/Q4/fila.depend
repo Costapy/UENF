@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1684768610 source:c:\almeida\estudos\c\ed1\fila\fila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684764367 source:c:\almeida\estudos\c\ed1\fila\fila\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1684763745 c:\almeida\estudos\c\ed1\fila\fila\fila.h
+
+1685107118 source:c:\users\uenf\documents\alcosta\fila\c\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1685107118 c:\users\uenf\documents\alcosta\fila\c\fila.h
+
+1685107305 source:c:\users\uenf\documents\alcosta\fila\c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1685714901 source:c:\almeida\estudos\c\ed1\lista2\q4\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"fila.h"
+
+1685305890 c:\almeida\estudos\c\ed1\lista2\q4\fila.h
+
+1685715520 source:c:\almeida\estudos\c\ed1\lista2\q4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+	<string.h>
+
+1685700500 source:c:\users\gabriel\desktop\lista2\q4\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"fila.h"
+
+1685291490 c:\users\gabriel\desktop\lista2\q4\fila.h
+
+1685701210 source:c:\users\gabriel\desktop\lista2\q4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+	<string.h>
+
+1685700500 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q4\fila.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"fila.h"
+
+1685291490 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q4\fila.h
+
+1685701210 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+	<string.h>
+

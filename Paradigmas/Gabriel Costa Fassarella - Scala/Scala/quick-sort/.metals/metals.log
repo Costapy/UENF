@@ -1,0 +1,116 @@
+2023.06.12 20:05:55 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort' for client Visual Studio Code 1.79.0.
+jun 12, 2023 8:05:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMAÇÕES: Flyway Community Edition 9.16.3 by Redgate
+jun 12, 2023 8:05:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: See release notes here: https://rd.gt/416ObMi
+jun 12, 2023 8:05:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMAÇÕES: 
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMAÇÕES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\.metals\metals (H2 2.1)
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMAÇÕES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMAÇÕES: Successfully validated 4 migrations (execution time 00:00.012s)
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMAÇÕES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMAÇÕES: Current version of schema "PUBLIC": << Empty Schema >>
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "1 - Create tables"
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMAÇÕES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jun 12, 2023 8:05:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMAÇÕES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.050s)
+2023.06.12 20:05:56 INFO  time: initialize in 0.59s
+2023.06.12 20:05:56 WARN  Build server is not auto-connectable.
+2023.06.12 20:05:56 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:05:58 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.12 20:06:00 INFO  time: code lens generation in 3.13s
+2023.06.12 20:06:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:05 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:08 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:12 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:20 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:22 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:29 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:07:34 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:08:09 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:08:35 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:08:38 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:09:15 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+jun 12, 2023 8:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 341
+2023.06.12 20:09:44 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:09:48 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:09:50 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:11:31 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:11:32 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:11:35 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:24 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+jun 12, 2023 8:12:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 461
+2023.06.12 20:12:30 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:39 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:42 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:44 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:47 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:48 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:53 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:55 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:12:59 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:07 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:09 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:13 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:21 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:23 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:28 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:32 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:35 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:39 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:13:45 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:14:07 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:14:44 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:14:54 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:15:04 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:15:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+jun 12, 2023 8:15:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 894
+2023.06.12 20:15:54 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:01 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:13 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:26 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:31 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:39 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:44 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+2023.06.12 20:16:51 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\quick-sort\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.06.12 21:12:58 INFO  
+2023.06.12 21:12:58 INFO  Template applied in C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\.\equacao-segundo-grau
+2023.06.12 21:12:58 INFO  
+2023.06.12 21:12:58 INFO  time: ran 'giter8.Giter8' in 7.38s
+2023.06.12 21:22:00 INFO  Shutting down server
+2023.06.12 21:22:00 INFO  shutting down Metals
+2023.06.12 21:22:00 INFO  Exiting server

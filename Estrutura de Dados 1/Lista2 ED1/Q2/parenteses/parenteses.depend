@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1684887167 source:c:\almeida\estudos\c\ed1\lista2\q2\parenteses\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+
+1684882306 c:\almeida\estudos\c\ed1\lista2\q2\parenteses\parenteses.h
+
+1684882938 source:c:\almeida\estudos\c\ed1\lista2\q2\parenteses\parenteses.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+
+1684872766 source:c:\users\gabriel\desktop\lista2\q2\parenteses\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+
+1684867906 c:\users\gabriel\desktop\lista2\q2\parenteses\parenteses.h
+
+1684868538 source:c:\users\gabriel\desktop\lista2\q2\parenteses\parenteses.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+
+1684872766 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q2\parenteses\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+
+1684867906 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q2\parenteses\parenteses.h
+
+1684868538 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados\lista2\q2\parenteses\parenteses.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parenteses.h"
+

@@ -1,0 +1,80 @@
+% Coloque os resultados e faça a análise. Não será aceito somente figuras ou tabelas sem discussão.
+
+%Dicas:
+% ! obriga a figura ficar nessa posição
+% h = here (aqui), t = top (topo), b = bottom (parte de baixo) e p = page (página) 
+% Figuras, equações e tabelas devem ter esse comando para que você controle as suas posições no texto. 
+
+
+%*\begin{figure}[H]
+ %   \centering
+ %   \caption{Foto do Picachu acenando.}
+ %   \includegraphics[scale=0.7]{Figuras/picachu.jpg}
+%    \legend{Fonte: deve citar a fonte \cite{livro4}.}
+%    \label{fig1}
+%\end{figure}
+
+%\lipsum[2] 
+
+%Aprenda a fazer tabelas no \LaTeX.
+%\url{https://www.learnlatex.org/pt/lesson-08}
+
+\begin{table}[h!]
+\caption{Posição e erro do fotogate com display}
+    \centering
+    \begin{tabular}{c|c}
+  \toprule
+  \multicolumn{1}{c}{x_0 (cm)} & \multicolumn{1}{c}{\Delta x (cm)} \\
+  \midrule
+  20,65 & 0,60\\
+  \bottomrule
+\end{tabular}
+\label{tabela}
+\legend{Fonte: Procedimento realizado em laboratório pelos integrantes}
+\end{table}
+
+\begin{table}[h!]
+\caption{Resultados das medidas para Massa = 179,45g}
+    \centering
+    \begin{tabular}{llllllll}
+  \toprule
+  x (cm) & t_1 (s) & t_2 (s) & t_3 (s) & t_4 (s) & t_5 (s) & \overline{t} (s) & \Delta \overline{t} (s)\\
+  \midrule
+  40,00 & 1,617 & 1,613 & 1,614 & 1,616 & 1,641 & 1,620 & 5,248 \times 10^-3\\
+  50,00 & 1,986 & 1,988 & 1,988 & 1,986 & 1,990 & 1,988 & 7,483 \times 10^-4\\
+  60,00 & 2,301 & 2,324 & 2,310 & 2,309 & 2,301 & 2,319 & 3,957 \times 10^-3\\
+  70,00 & 2,595 & 2,630 & 2,609 & 2,594 & 2,592 & 2,604 & 7,162 \times 10^-3\\
+  80,00 & 2,841 & 2,845 & 2,836 & 2,843 & 2,842 & 2,841 & 1,503 \times 10^-3\\
+  90,00 & 3,063 & 3,065 & 3,069 & 3,086 & 3,080 & 3,073 & 4,456 \times 10^-3\\
+  100,00 & 3,298 & 3,298 & 3,295 & 3,296 & 3,306 & 3,299 & 1,939 \times 10^-3\\
+  110,00 & 3,502 & 3,506 & 3,497 & 3,499 & 3,503 & 3,501 & 1,568 \times 10^-3\\
+  120,00 & 3,689 & 3,697 & 3,696 & 3,707 & 3,703 & 3,698 & 3,092 \times 10^-3\\
+  130,00 & 3,881 & 3,900 & 3,846 & 3,879 & 1,896 & 3,880 & 9,522 \times 10^-3\\
+  \bottomrule
+\end{tabular}
+\label{tabela}
+\legend{Fonte: Procedimento realizado em laboratório pelos integrantes}
+\end{table}
+
+\begin{table}[h!]
+\caption{Resultados das medidas para Massa = 279,50g}
+    \centering
+    \begin{tabular}{llllllll}
+  \toprule
+  x (cm) & t_1 (s) & t_2 (s) & t_3 (s) & t_4 (s) & t_5 (s) & \overline{t} (s) & \Delta \overline{t} (s)\\
+  \midrule
+  40,00 & 1,611 & 1,613 & 1,609 & 1,629 & 1,617 & 1,616 & 5,555 \times 10^-3\\
+  50,00 & 1,992 & 1,987 & 1,988 & 2,016 & 1,986 & 1,994 & 5,643 \times 10^-3\\
+  60,00 & 2,301 & 2,298 & 2,316 & 2,298 & 2,299 & 2,302 & 3,444 \times 10^-3\\
+  70,00 & 2,600 & 2,611 & 2,588 & 2,584 & 2,585 & 2,594 & 5,202 \times 10^-3\\
+  80,00 & 2,847 & 2,850 & 2,835 & 2,839 & 2,862 & 2,847 & 4,697 \times 10^-3\\
+  90,00 & 3,070 & 3,071 & 3,068 & 3,071 & 3,081 & 3,072 & 2,267 \times 10^-3\\
+  100,00 & 3,295 & 3,311 & 3,306 & 3,306 & 3,292 & 3,302 & 3,619 \times 10^-3\\
+  110,00 & 3,493 & 3,498 & 3,498 & 3,506 & 3,498 & 3,499 & 2,088 \times 10^-3\\
+  120,00 & 3,695 & 3,693 & 3,700 & 3,695 & 3,696 & 3,696 & 1,158 \times 10^-3\\
+  130,00 & 3,898 & 3,881 & 3,882 & 3,875 & 1,868 & 3,881 & 4,974 \times 10^-3\\
+  \bottomrule
+\end{tabular}
+\label{tabela}
+\legend{Fonte: Procedimento realizado em laboratório pelos integrantes}
+\end{table}

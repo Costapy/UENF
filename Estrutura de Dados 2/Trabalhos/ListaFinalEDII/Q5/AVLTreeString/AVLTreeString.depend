@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1701179173 source:c:\users\pablo\onedrive\Área de trabalho\ed2\avltreestring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AVLTreeString.h"
+	<ctype.h>
+
+1701120133 c:\users\pablo\onedrive\Área de trabalho\ed2\avltreestring\avltreestring.h
+
+1701181495 source:c:\users\pablo\onedrive\Área de trabalho\ed2\avltreestring\avltreestring.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVLTreeString.h"
+
+1701181904 source:c:\users\gabriel\desktop\avltreestring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AVLTreeString.h"
+	<ctype.h>
+
+1701120133 c:\users\gabriel\desktop\avltreestring\avltreestring.h
+
+1701181904 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q5\avltreestring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AVLTreeString.h"
+	<ctype.h>
+
+1701120133 c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q5\avltreestring\avltreestring.h
+
+1701181495 source:c:\users\gabriel\desktop\costa\estudos\uenf\estrutura de dados 2\trabalhos\listafinaledii\q5\avltreestring\avltreestring.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVLTreeString.h"
+

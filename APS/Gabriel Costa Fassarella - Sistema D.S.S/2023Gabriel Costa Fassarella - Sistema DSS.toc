@@ -1,0 +1,63 @@
+\babel@toc {brazil}{}\relax 
+{\pdfbookmark [0]{Sum\'ario}{toc}}
+\contentsline {chapter}{\numberline {1} Introdu\c {c}\~{a}o}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Descri\c {c}\~{a}o do Sistema Computacional a desenvolver}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Visibilidade Melhorada}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Experiência do Cliente}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Melhor Eficiência}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Redução de Erros}{2}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Monitoramento de Entregas de Alto Valor}{2}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Análise de Desempenho}{3}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}Competitividade}{3}{subsection.1.1.7}%
+\contentsline {section}{\numberline {1.2}Identificando as componentes do meu sistema}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Componente: Hardware}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Componente: Software}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Componente: Pessoas}{4}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Componente: Banco de Dados}{4}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Componente: Documentos }{4}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Componente: Metodologias ou Procedimentos}{5}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Componente: Mobilidade}{5}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Componente: Nuvem}{5}{subsection.1.2.8}%
+\contentsline {chapter}{\numberline {2}Etapa de Planejamento}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Solicita\c {c}\~{a}o do Sistema}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Custos: Desenvolvimento e Operacional}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Benef\'{\i }cios}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Benef\'{\i }cios Tang\'{\i }veis}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Benef\'{\i }cios Intang\'{\i }veis}{9}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}An\'{a}lise de Custos e Benef\'{\i }cios}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Estudo de Viabilidade}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Calend\'{a}rio }{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Cronograma }{10}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Or\c {c}amento }{10}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Resumo e Recomenda\c {c}\~{o}es}{11}{subsection.2.5.4}%
+\contentsline {chapter}{\numberline {3}Etapa de An\'{a}lise}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Requisitos do Sistema}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Hardware}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Software}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Pessoas}{14}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Banco de Dados e Nuvem}{14}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Documentos}{15}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Metodologias e Procedimentos}{15}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Mobilidade}{15}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3.2}Definição de Requisitos}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Especificação de Requisitos}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Stakeholders}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Entrevista}{17}{section.3.5}%
+\contentsline {section}{\numberline {3.6} Casos de Uso}{18}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Rastreamento de Entregas}{18}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Planejamento de Rotas}{18}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Gerenciamento da Frota}{19}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Diagrama de Casos de Uso}{19}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Modelagem}{19}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Diagrama de Fluxo de Dados}{19}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Diagrama de Entidades e Relacionamentos}{21}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Projeto do Sistema}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Refinamento DFD e ER}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{25}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{25}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{26}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{27}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{29}{chapter.5}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografia}}{31}{chapter*.2}%
+\contentsfinish 

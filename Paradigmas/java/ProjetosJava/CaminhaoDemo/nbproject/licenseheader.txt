@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Prof. Ausberto S. Castro Vera
+${licensePrefix}UENF - CCT - LCMAT Ciencia da Computacao
+${licensePrefix}2019
+${licensePrefix}Arquivo: 
+${licensePrefix}Assunto: 
+<#if licenseLast??>
+${licenseLast}
+</#if>

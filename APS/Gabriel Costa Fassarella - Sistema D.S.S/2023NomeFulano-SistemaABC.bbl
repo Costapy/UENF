@@ -1,0 +1,56 @@
+\begin{thebibliography}{{Eng}13}
+
+\bibitem[Bud21]{Budgen2021}
+David Budgen.
+\newblock {\em Software Design : Creating Solutions for Ill-Structured
+  Problems}.
+\newblock Chapman and Hall CRC Press, Boca Raton, FL, 3 edition, 2021.
+
+\bibitem[DWR14]{Dennis2014}
+Alan Dennis, Barbara~Haley Wixom, and Roberta~M. Roth.
+\newblock {\em An{\'a}lise e Projeto de Sistemas}.
+\newblock LTC, Rio de Janeiro, 5 edition, 2014.
+
+\bibitem[DWR19]{Dennis2019}
+Alan Dennis, Barbara Wixom, and Roberta~M. Roth.
+\newblock {\em Systems analysis and design}.
+\newblock Wiley, Hoboken, NJ, 7 edition, December 2019.
+
+\bibitem[{Eng}13]{Engholm2013}
+H{\'e}lio {Engholm Jr.}
+\newblock {\em An{\'a}lise e Design Orientados a Objetos}.
+\newblock Novatec, 2013.
+
+\bibitem[GS83]{Gane1983}
+Chris Gane and Trish Sarson.
+\newblock {\em An{\'a}lise Estruturada de Sistemas}.
+\newblock Livros T{\'e}cnicos e Cient{\'\i}ficos Editora Ltda., Rio de Janeiro,
+  1983.
+
+\bibitem[KK20]{Kendall2020}
+Kenneth~E. Kendall and Julie~E. Kendall.
+\newblock {\em Systems analysis and design}.
+\newblock Pearson Education Limited, Harlow, England, 10 edition, 2020.
+
+\bibitem[SJB12]{Satzinger2012}
+John~W. Satzinger, Robert~B. Jackson, and Stephen~D. Burd.
+\newblock {\em Introduction to Systems Analysis and Design: An Agile, Iterative
+  Approach}.
+\newblock Course Technology, CENGAGE Learning, Canad{\'a}, 6 edition, 2012.
+
+\bibitem[Som11]{Sommerville2011}
+Ian Sommerville.
+\newblock {\em Engenharia de Software}.
+\newblock Pearson Prentice Hall, S{\~a}o Paulo, 9 edition, 2011.
+
+\bibitem[SR12]{Shelly2012}
+Gary~B. Shelly and Harry~J. Rosenblat.
+\newblock {\em Analysis and Design for Systems}.
+\newblock Course Technology, CENGAGE Learning, Canad{\'a}, 9 edition, 2012.
+
+\bibitem[VG20]{Valacich2020}
+Joseph Valacich and Joey George.
+\newblock {\em Modern systems analysis and design}.
+\newblock Pearson, {Boston, MA}, 9 edition, 2020.
+
+\end{thebibliography}

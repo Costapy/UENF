@@ -1,0 +1,47 @@
+\babel@toc {brazil}{}\relax 
+{\pdfbookmark [0]{Sum\'ario}{toc}}
+\contentsline {chapter}{\numberline {1} Introdu\c {c}\~{a}o}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Descri\c {c}\~{a}o do Sistema Computacional a desenvolver}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}abcde}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}defgh}{1}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Identificando as componentes do meu sistema}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Componente: Hardware}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Componente: Software}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Componente: Pessoas}{2}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Componente: Banco de Dados}{2}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Componente: Documentos }{2}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Componente: Metodologias ou Procedimentos}{2}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Componente: Mobilidade}{2}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Componente: Nuvem}{2}{subsection.1.2.8}%
+\contentsline {chapter}{\numberline {2}Etapa de Planejamento}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Solicita\c {c}\~{a}o do Sistema}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Custos: Desenvolvimento e Operacional}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Benef\'{\i }cios}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Benef\'{\i }cios Tang\'{\i }veis}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Benef\'{\i }cios Intang\'{\i }veis}{3}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}An\'{a}lise de Custos e Benef\'{\i }cios}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Estudo de Viabilidade}{3}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Calend\'{a}rio }{3}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Cronograma }{3}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Alternativas Tecnol\'{o}gicas }{3}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Or\c {c}amento }{4}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Resumo e Recomenda\c {c}\~{o}es}{4}{subsection.2.5.5}%
+\contentsline {chapter}{\numberline {3}Etapa de An\'{a}lise}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Requisitos do Sistema}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Stakeholders e Pontos de Vista}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Entrevista}{5}{section.3.3}%
+\contentsline {section}{\numberline {3.4} Casos de Uso}{5}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modelagem do Sistema}{5}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Modelagem de Processos}{5}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Modelagem de Dados}{5}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Projeto do Sistema}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estrat\'{e}gia do Projeto}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Refinamento dos Diagramas DFD e E-R}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Arquitetura do Sistema - Estilos}{7}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Arquitetura do Sistema}{7}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitetura do Hardware}{7}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura de Software}{7}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Projeto de Interface}{7}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{9}{chapter.5}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografia}}{11}{chapter*.2}%
+\contentsfinish 

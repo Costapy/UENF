@@ -1,0 +1,61 @@
+2023.06.12 19:30:01 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\hello-world' for client Visual Studio Code 1.79.0.
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMA합ES: Flyway Community Edition 9.16.3 by Redgate
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: See release notes here: https://rd.gt/416ObMi
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: 
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMA합ES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\hello-world\.metals\metals (H2 2.1)
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMA합ES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMA합ES: Successfully validated 4 migrations (execution time 00:00.012s)
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMA합ES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMA합ES: Current version of schema "PUBLIC": << Empty Schema >>
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "1 - Create tables"
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jun 12, 2023 7:30:02 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMA합ES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.042s)
+2023.06.12 19:30:02 INFO  time: initialize in 0.54s
+2023.06.12 19:30:02 INFO  Shutting down server
+2023.06.12 19:30:02 INFO  shutting down Metals
+2023.06.12 19:30:03 WARN  Build server is not auto-connectable.
+2023.06.12 19:30:02 INFO  Exiting server
+2023.06.12 19:31:05 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora' for client Visual Studio Code 1.79.0.
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMA합ES: Flyway Community Edition 9.16.3 by Redgate
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: See release notes here: https://rd.gt/416ObMi
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: 
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMA합ES: Database: jdbc:h2:file:C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora\.metals\metals (H2 2.1)
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMA합ES: Successfully validated 4 migrations (execution time 00:00.016s)
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMA합ES: Current version of schema "PUBLIC": 4
+jun 12, 2023 7:31:05 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMA합ES: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.12 19:31:06 INFO  time: initialize in 0.54s
+2023.06.12 19:31:06 WARN  Build server is not auto-connectable.
+2023.06.12 19:31:06 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora\src\main\scala\Main.scala
+2023.06.12 19:31:08 INFO  no build target found for C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.12 19:31:10 INFO  time: code lens generation in 3.27s
+2023.06.12 19:31:42 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora\src\main\scala\Main.scala
+2023.06.12 19:31:49 WARN  no build target for: C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\calculadora\src\main\scala\Main.scala
+2023.06.12 19:33:16 INFO  
+2023.06.12 19:33:16 INFO  Template applied in C:\Users\Gabriel\Desktop\Costa\Estudos\Scala\.\bubble-sort
+2023.06.12 19:33:16 INFO  
+2023.06.12 19:33:16 INFO  time: ran 'giter8.Giter8' in 6.72s
+2023.06.12 19:33:20 INFO  Shutting down server
+2023.06.12 19:33:20 INFO  shutting down Metals
+2023.06.12 19:33:20 INFO  Exiting server

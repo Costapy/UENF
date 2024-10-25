@@ -1,0 +1,10 @@
+"New York-No. NJ"	2000	21199865
+"Los Angeles area"	2000	16373645
+"Chicago area"	2000	9157540
+"Washington-Baltimore"	2000	7608070
+"San Francisco area" 2000	7039362
+"Philadelphia-Atlantic City area" 2000	6188463
+"Boston area" 2000	5819100
+"Detroit area" 2000	5456428
+"Dallas-Fort Worth" 2000	5221801
+"Houston-Galveston area" 2000 	4669571
